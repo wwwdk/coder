@@ -3,7 +3,7 @@
     <div class="list">
       <h1>List</h1>
     </div>
-    <router-link to="home">返回主页</router-link>
+    <router-link to="/">返回主页</router-link>
   </div>
 </template>
 
