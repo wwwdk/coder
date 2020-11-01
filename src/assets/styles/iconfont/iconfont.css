@@ -1,10 +1,10 @@
 @font-face {font-family: "iconfont";
-  src: url('./iconfont/iconfont.eot?t=1604235921739'); /* IE9 */
-  src: url('./iconfont/iconfont.eot?t=1604235921739#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  src: url('iconfont.eot?t=1604235921739'); /* IE9 */
+  src: url('iconfont.eot?t=1604235921739#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMsAAsAAAAAByAAAALgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqBXIFcATYCJAMQCwoABCAFhG0HRhtMBsgekiQlQoQQAKiCMMgQwdfw3b67S61lfFRUVKmgDApUjMAYlMCVbsT/a+31hVFmVocQ1Me3Bx/2Zm/DrBhLpKs6ka0KqVZWAevL6Zf3/7mcNpYHMr+d5bLmouv5mIBRmgY29iArYWypXcQJ0a+2nUC9YYk8LqsbO8FfgfoF4r0iWcC/5VeUKFUrVI9MLeITVKlNHzw/Ah/l7+O/9PAnqcrQ0KvHKjuU/gr8+uY1ZUy54RgQnGdFNIuMRaAQz6PxW14ionqpb+1tG6hVK3FWQ8evbcPQRl7Mw395hCQT1RC6EWx6icyvQIoQ/IpCSPzaRskAEGWtTu4D1z5x8NiQRK7rizFFyPr0/crt1N3qQ9/U+5X47tvAlXtEmX6grN4tCVOdXU8Hdw72tx9dRts3p2Jw6+rx4+aQWNr9of3pCry96x0deUXkr/kyv+rLSPc4Pe3MkyqHM3p7M0cWXY7gGO3iSLp0xkillNdxehYOcd8Gq9Do7BpSJ1+QF6zrUHdXKO0abLaCBu2UP3teg8p5ydOgIiV5JUG8m7mDjG+msML/tQ2frPt6fbMmvRUF1ikAbILVAvgKVpaVUoQMpeRiyq+cxfjuPgn16gHVNO2+nKHsWo0m1OqykNQYgqzWJLYQF6FKg02oVusE6i2omd2gA+clSh3mzTsQWr2GpNkXyFp9whbiZ6jS7TtUaw0vqHcdUUs2mA4lsIKjRaCdWIeJYmNuSkwiUGW2o9TvtPCmSNK6ketKiKQlp3ZTNehGfsYIfUBKF4ISypmLVDu7odPJiMaZijaRLAuh5aek0LEPJduYCwJd4JCFgOwIq2GEwoZxo7y2ENj7fjsk6edkwWeyFuzdEKdTmifSJEtdga2Ru1dlfcstugGSdIJAERTHuBDVjhU5cZwhtPFOKmQjJJN3RDX5UrxqdK08+X6l6wfyojzQe0qkyFGiSlpL89XRwm1yqNLSUcY5G2xEKpLSAAA=') format('woff2'),
-  url('./iconfont/iconfont.woff?t=1604235921739') format('woff'),
-  url('./iconfont/iconfont.ttf?t=1604235921739') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  url('./iconfont/iconfont.svg?t=1604235921739#iconfont') format('svg'); /* iOS 4.1- */
+  url('iconfont.woff?t=1604235921739') format('woff'),
+  url('iconfont.ttf?t=1604235921739') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1604235921739#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {

@@ -3,11 +3,19 @@
     <div class="header">
       <div class="header-left">
         <div class="iconfont">
-          &#xe684;
+          &#xe696;
         </div>
       </div>
-      <div class="header-input">景点</div>
-      <div class="header-right">城市</div>
+      <div class="header-input">
+        <div class="iconfont">
+          &#xe613;景点
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="iconfont">
+          &#xe60a;城市
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -32,7 +40,7 @@ export default {
     color: #ffffff
     .header-left
       width: .64rem
-      color: #ccc
+      text-align: center
     .header-input
       flex: 1
       margin-top: .12rem

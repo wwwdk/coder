@@ -1,0 +1,30 @@
+{
+  "id": "2168239",
+  "name": "travel",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "CW's course.",
+  "glyphs": [
+    {
+      "icon_id": "316178",
+      "name": "arrow-down",
+      "font_class": "11",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "1206327",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "17412361",
+      "name": "iOS Arrow Left-1",
+      "font_class": "iOSArrowLeft-1",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    }
+  ]
+}
