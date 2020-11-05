@@ -2,19 +2,21 @@
   <div>
     <div class="header">
       <div class="header-left">
-        <div class="iconfont">
+        <span class="iconfont back-icon">
           &#xe696;
-        </div>
+        </span>
       </div>
       <div class="header-input">
-        <div class="iconfont">
-          &#xe613;景点
-        </div>
+        <span class="iconfont">
+          &#xe613;
+        </span>
+        输入城市/景点/游玩主题
       </div>
       <div class="header-right">
-        <div class="iconfont">
-          &#xe60a;城市
-        </div>
+        城市
+        <span class="iconfont arrow-icon">
+          &#xe60a;
+        </span>
       </div>
     </div>
   </div>
@@ -41,10 +43,13 @@ export default {
     .header-left
       width: .64rem
       text-align: center
+      .back-icon
+        text-align: center
+        font-size: .4rem
     .header-input
       flex: 1
-      margin-top: .12rem
-      margin-left: .2rem
+      margin-top: .15rem
+      margin-left: .1rem
       height: .62rem
       line-height: .62rem
       border-radius: .1rem
@@ -54,4 +59,7 @@ export default {
       width: 1.44rem
       float: right
       text-align: center
+      line-height .86rem
+      .arrow-icon
+        font-size .24rem
 </style>
