@@ -1,5 +1,5 @@
 <template>
-  <div class="swipper">
+  <div class="wrapper">
       <swiper :options="swiperOption">
         <!-- slides -->
         <swiper-slide>
@@ -37,7 +37,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="stylus" scoped>
 .wrapper >>> .swiper-pagination-bullet-active //修改子组件样式
-  background #ffffff
+  background #fff
 .wrapper
   width 100%
   height 0
