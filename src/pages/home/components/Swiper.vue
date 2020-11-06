@@ -2,14 +2,9 @@
   <div class="wrapper">
       <swiper :options="swiperOption">
         <!-- slides -->
-        <swiper-slide>
-          <img class="swiper-img" src="//imgs.qunarzz.com/vc/e3/a1/71/f498dfd3bed948d623c9093252.jpg_92.jpg" alt="">
-        </swiper-slide>
-        <swiper-slide>
-          <img class="swiper-img" src="//imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg" alt="">
-        </swiper-slide>
-        <swiper-slide>
-          <img class="swiper-img" src="http://img1.qunarzz.com/piao/fusion/1712/91/a275569091681d02.jpg_640x200_0519ccb9.jpg" alt="">
+        <!-- <div v-for = "item in list">{{item}}</div> -->
+        <swiper-slide v-for="item in swiperList" :key="item.id">
+          <img class="swiper-img" :src="item.imgUrl" alt="">
         </swiper-slide>
         <!-- Optional controls -->
         <div class="swiper-pagination"  slot="pagination"></div>
@@ -28,7 +23,21 @@ export default {
       swiperOption: {
         pagination: '.swiper-pagination',
         loop: true
-      }
+      },
+      swiperList: [
+        {
+          id: '001',
+          imgUrl: '//imgs.qunarzz.com/vc/e3/a1/71/f498dfd3bed948d623c9093252.jpg_92.jpg'
+        },
+        {
+          id: '002',
+          imgUrl: '//imgs.qunarzz.com/vs_ceph_vcimg/c0a60fa20379efa4f02ce527a680dc1b.jpeg'
+        },
+        {
+          id: '003',
+          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1712/91/a275569091681d02.jpg_640x200_0519ccb9.jpg'
+        }
+      ]
     }
   }
 }
