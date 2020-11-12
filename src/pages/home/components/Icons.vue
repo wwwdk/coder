@@ -17,7 +17,7 @@ export default {
   data () {
     return {
       swiperOption: {
-        pagination: '.swiper-pagination',
+        pagination: '',
         loop: true
       },
       iconList: [
